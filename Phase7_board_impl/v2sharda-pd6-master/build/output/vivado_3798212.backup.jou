@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 24 21:20:42 2025
+# Process ID: 3798212
+# Current directory: /home/v2umasha/ece621-f25/v2sharda-pd6/build/output
+# Command line: vivado -mode batch -source /home/v2umasha/ece621-f25/v2sharda-pd6/build/scripts/generate-bitstream.tcl -tclargs /home/v2umasha/ece621-f25/v2sharda-pd6 /home/v2umasha/ece621-f25/v2sharda-pd6/verif/data/rv32ui-p-add.x 4096 357 0
+# Log file: /home/v2umasha/ece621-f25/v2sharda-pd6/build/output/vivado.log
+# Journal file: /home/v2umasha/ece621-f25/v2sharda-pd6/build/output/vivado.jou
+# Running On: ecetesla1, OS: Linux, CPU Frequency: 3726.075 MHz, CPU Physical cores: 24, Host memory: 134976 MB
+#-----------------------------------------------------------
+source /home/v2umasha/ece621-f25/v2sharda-pd6/build/scripts/generate-bitstream.tcl

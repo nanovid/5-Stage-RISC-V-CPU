@@ -1,0 +1,115 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab -relax -debug typical tb -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip --snapshot tb glbl 
+Multi-threading is on. Using 22 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'TRACE_tready' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/design/tb.sv:26]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'address_2' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:117901]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'address_20' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:117902]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'address_2' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:89856]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'address_20' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:89857]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:100582]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:85105]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'address_20' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:102217]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'DOADO' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:85298]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'DOADO' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:85779]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'DOADO' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:87103]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'DOADO' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:87245]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'address_2' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:102261]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v:102475]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v" Line 98809. Module overlay_top_design_0 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v" Line 117729. Module top has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/GND.v" Line 24. Module GND has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/LUT4.v" Line 30. Module LUT4 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/VCC.v" Line 26. Module VCC has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v" Line 89773. Module design_wrapper has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/LUT4.v" Line 30. Module LUT4 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/LUT5.v" Line 30. Module LUT5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/v2umasha/ece621-f25/v2sharda-pd6/build/output/overlay_routed.v" Line 99369. Module pd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.1/rdi_builds/continuous/2022_04_18_3526262/data/verilog/src/unisims/FDRE.v" Line 27. Module FDRE_default has a timescale but at least one module in design doesn't have timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4100' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.SRL16E_default
+Compiling module unisims_ver.MUXF7
+Compiling module work.ALU
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module work.branch_compare
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module unisims_ver.RAMB18E1(RDADDR_COLLISION_HWCONF...
+Compiling module unisims_ver.LUT6
+Compiling module work.byte_mem
+Compiling module work.byte_mem_0
+Compiling module work.byte_mem_1
+Compiling module work.byte_mem_2
+Compiling module work.dmemory
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB36E1(INIT_00=256'b0100000000...
+Compiling module work.imemory
+Compiling module unisims_ver.MUXF8
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(RAM_MODE="SDP...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0100010000...
+Compiling module work.register_file
+Compiling module work.pd
+Compiling module work.design_wrapper
+Compiling module unisims_ver.BUFG
+Compiling module work.top
+Compiling module work.overlay_top_design_0
+Compiling module work.tb
+Compiling module work.glbl
+Built simulation snapshot tb

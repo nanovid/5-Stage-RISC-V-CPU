@@ -1,0 +1,11 @@
+dmemory.v
+imemory.v
+pd.v
+mux21.v
+mux31.v
+mux41.v
+decode.v
+register_file.v
+ALU.v
+branch_compare.v
+loadster.v

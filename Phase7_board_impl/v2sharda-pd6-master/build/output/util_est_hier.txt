@@ -1,0 +1,43 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 24 21:19:11 2025
+| Host         : ecetesla1 running 64-bit Ubuntu 24.04.3 LTS
+| Command      : report_utilization -hierarchical -force -file /home/v2umasha/ece621-f25/v2sharda-pd6/build/output/util_est_hier.txt
+| Design       : top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------+----------------+------------+------------+---------+------+-----+--------+--------+------------+
+|        Instance       |     Module     | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------+----------------+------------+------------+---------+------+-----+--------+--------+------------+
+| top                   |          (top) |       1310 |       1308 |       0 |    2 | 491 |      1 |      6 |          0 |
+|   (top)               |          (top) |        247 |        247 |       0 |    0 | 107 |      0 |      0 |          0 |
+|   dut                 | design_wrapper |       1063 |       1061 |       0 |    2 | 384 |      1 |      6 |          0 |
+|     (dut)             | design_wrapper |          3 |          3 |       0 |    0 |   0 |      0 |      0 |          0 |
+|     core              |             pd |       1060 |       1058 |       0 |    2 | 384 |      1 |      6 |          0 |
+|       (core)          |             pd |          7 |          5 |       0 |    2 | 382 |      0 |      0 |          0 |
+|       alu             |            ALU |          1 |          1 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       branch_compare1 | branch_compare |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       dmem            |        dmemory |        228 |        228 |       0 |    0 |   2 |      0 |      4 |          0 |
+|         (dmem)        |        dmemory |          0 |          0 |       0 |    0 |   2 |      0 |      0 |          0 |
+|         bm[0].memory  |       byte_mem |         40 |         40 |       0 |    0 |   0 |      0 |      1 |          0 |
+|         bm[1].memory  |     byte_mem_0 |         28 |         28 |       0 |    0 |   0 |      0 |      1 |          0 |
+|         bm[2].memory  |     byte_mem_1 |         81 |         81 |       0 |    0 |   0 |      0 |      1 |          0 |
+|         bm[3].memory  |     byte_mem_2 |         79 |         79 |       0 |    0 |   0 |      0 |      1 |          0 |
+|       imem            |        imemory |        150 |        150 |       0 |    0 |   0 |      1 |      0 |          0 |
+|       rf              |  register_file |        674 |        674 |       0 |    0 |   0 |      0 |      2 |          0 |
++-----------------------+----------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+
